@@ -4,10 +4,10 @@ inputs:
   who-to-greet:
     description: 'Who to greet'
     required: true
-    default: 'world'
+    default: 'keine Ahnung'
 outputs:
   time:
-    description: 'The time we said hello.'
+    description: 'The time we said hello: '
 runs:
   using: 'docker'
   image: 'Dockerfile'
